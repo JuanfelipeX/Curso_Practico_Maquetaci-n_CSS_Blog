@@ -6,6 +6,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a {
@@ -40,39 +41,55 @@ header .header-icons-container .icons {
     margin-right: 100px;
 }
 
-.nav-logo-container {
-    margin-left: 50px;
-    z-index: 1;
-    position: absolute;
-}
-
-.nav-logo-container img {
-    width: 200px;
-    margin-top: 10px;
-}
-
-.profile-link {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 50px;
-    margin-top: 10px;
-    position: absolute;
-    z-index: 1;
-}
-
-.profile-link a {
-    color: black;
-    border-bottom: 1px solid black;
-}
-
-.main-image-container img {
+main .main-image-container img {
     width: 100%;
     z-index: 0;
     position: absolute;
 }
 
-.main-container {
+main .nav-logo-container {
+    width: 100%;
     z-index: 1;
     position: absolute;
+}
+
+main .nav-logo-container img {
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+main .profile-link {
+    z-index: 1;
+    position: absolute;
+}
+
+main .profile-link a {
+    color: white;
+}
+
+main .main-container {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+main .main-container-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.main-container-button {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #137175;
+    color: black;
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: bold;
 }
