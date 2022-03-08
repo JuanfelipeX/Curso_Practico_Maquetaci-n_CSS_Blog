@@ -41,12 +41,6 @@ header .header-icons-container .icons {
     margin-right: 100px;
 }
 
-main .main-image-container img {
-    width: 100%;
-    z-index: 0;
-    position: absolute;
-}
-
 main .nav-logo-container {
     width: 100%;
     z-index: 1;
@@ -56,17 +50,18 @@ main .nav-logo-container {
 main .nav-logo-container img {
     width: 200px;
     float: right;
-    margin: 25px;
+    margin-right: 50px;
+    margin-top: 5px;
 }
 
 main .profile-link {
     z-index: 1;
     position: absolute;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 main .profile-link a {
-    color: white;
+    color: black;
     margin-left: 50px;
     font-weight: bold;
     font-size: 1.2rem;
@@ -75,26 +70,8 @@ main .profile-link a {
 main .main-container {
     z-index: 1;
     position: absolute;
-    color: white;
+    color: black;
     text-align: center;
     width: 100%;
     margin-top: 125px;
-}
-
-main .main-container-title {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
-.main-container-button {
-    margin-top: 25px;
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #137175;
-    color: black;
-    border-width: 0;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-weight: bold;
-    border: solid .1rem rgb(63, 63, 63);
 }
