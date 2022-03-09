@@ -81,6 +81,11 @@ main .main-container {
     margin-top: 125px;
 }
 
+main .main-container img {
+    width: 100%;
+    height: auto;
+}
+
 main .main-container-title {
     font-size: 4rem;
     font-weight: bold;
